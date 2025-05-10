@@ -81,11 +81,12 @@
       var notice = document.getElementById('notice');
       if (bgm.paused) {
         bgm.play();
-        notice.style.display = 'none'; // Hide the notice once the music starts
+        notice.style.display = 'none'; 
       }
       else {
         bgm.pause();
         notice.style.display = 'block';  
+        notice.style.display ='none';
       }
     });
 
